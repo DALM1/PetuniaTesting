@@ -1,6 +1,6 @@
 # PetuniaTesting
 
-
+TEST WEB (FRONT)
 
 ```
 curl -X POST http://localhost:3010/tests/web/run \
@@ -8,7 +8,7 @@ curl -X POST http://localhost:3010/tests/web/run \
 -d '{"testUrl": "http://localhost:3000"}'
 ```
 
-Test de charge
+TEST DE CHARGE
 
 ```
 curl -X POST http://localhost:3010/tests/performance/run/k6 \
